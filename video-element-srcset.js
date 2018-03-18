@@ -164,11 +164,11 @@ var extend = function () {
         }
 
         //convert data-srcset to an array
-        videoSrcSet = videoSrcSet.split('; ');
+        videoSrcSet = videoSrcSet.split(';');
 
         // loops the through our sources
         for (i = 0; i < videoSrcSet.length; ++i) {
-
+            videoSrcSet[i] = videoSrcSet[i].trim();
             var components = videoSrcSet[i].split(', ');
             videoSources['"' + components[0] + '"'] = [components[1], 'not-loaded'] ;
         }

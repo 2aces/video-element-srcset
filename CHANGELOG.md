@@ -23,6 +23,11 @@ Suggested Roadmap:
 	- module support
 	- loadJS
 
+## [0.3.2] - 2018-03-12
+
+### Fixed
+- whitespace management for data-srcset items
+
 ## [0.3.1] - 2018-03-12
 
 ### Fixed
